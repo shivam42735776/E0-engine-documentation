@@ -4,11 +4,9 @@
 
 **E0 Price Engine** is an independently developed, modular algorithmic trading and market analysis system designed for intraday trading in the Indian financial markets.
 
-The project focuses on combining financial-market analysis, systematic rule based trading logic, and software engineering to develop an automated trading system.
+The project focuses on combining financial-market analysis, systematic rule-based trading logic, and software engineering to develop an automated trading system.
 
 E0 is being developed using Python, with NumPy and Numba for numerical computation and performance optimization, alongside financial-market APIs for market data acquisition and broker integration.
-
-The project is independently designed and developed as a personal technical project.
 
 E0 doesn't simply analyze candles; it evaluates the market behaviour reflected through price action.
 
@@ -58,7 +56,7 @@ The strategy focuses on identifying specific market conditions that may indicate
 
 **Strategy Scope:**
 
-* The current V1.0 implementation is based exclusively on NIFTY 50 market behaviour as its analytical reference.
+* The current V1.0 implementation uses NIFTY 50 as its sole market-behaviour reference.
 * The strategy follows a reversal-oriented trading approach.
 * Trading opportunities are evaluated using predefined market-analysis and entry-validation conditions.
 * The system emphasizes selective participation rather than attempting to capture every market movement.
@@ -79,7 +77,9 @@ The purpose of V1.0 is to establish a functional, rule-based trading system with
 
 E0 follows a behaviour-oriented approach to financial-market analysis.
 
-Rather than relying exclusively on individual candlestick patterns or technical indicators, its analytical approach interprets market psychology through price action across multiple timeframes.
+E0 V1.0 analyzes NIFTY 50 market behaviour through price action and market structure across multiple timeframes.
+
+Its analytical framework focuses on identifying structural price movements, directional behaviour, retracements, and potential reversal conditions using predefined analytical rules.
 
 E0 attempts to identify such situations by evaluating:
 
@@ -122,7 +122,7 @@ The architecture is designed to maintain separation of responsibilities, modular
 
 E0 follows a strict separation between its analytical intelligence and execution components.
 
-The Intelligence layer evaluates market conditions, analyzes price structures, calculate potential market zones, identifies potential trading setups, and validates entry opportunities.
+The Intelligence layer evaluates market conditions, analyzes price structures, calculates potential market zones, identifies potential trading setups, and validates entry opportunities.
 
 The Execution layer handles expiry and strike price selection, execution validation, order-related operations, and trade management.
 
