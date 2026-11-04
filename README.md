@@ -132,18 +132,17 @@ This separation is intended to maintain modularity, reduce coupling between anal
 
 ## 8. Technology Stack
 
-┌───────────────────────────────────────────────────────────────────────────────┐
-| Technology | Application                                                      |
-| ---------- | ---------------------------------------------------------------- |
-| Python     | Core programming language                                        |
-| NumPy      | Numerical operations and data processing                         |
-| Numba      | Just-in-time compilation and computational optimization          |
-| FYERS API  | Market data acquisition and financial-market integration         |
-| Dhan API   | Broker integration and order execution                           |
-| WebSockets | Real-time market-data communication                              |
-| Git        | Version control                                                  |
-| GitHub     | Repository hosting and documentation                             |
-└───────────────────────────────────────────────────────────────────────────────┘
+| Technology | Application                                              |
+| :--------- | :------------------------------------------------------- |
+| Python     | Core programming language                                |
+| NumPy      | Numerical operations and data processing                 |
+| Numba      | Just-in-time compilation and computational optimization  |
+| FYERS API  | Market data acquisition and financial-market integration |
+| Dhan API   | Broker integration and order execution                   |
+| WebSockets | Real-time market-data communication                      |
+| Git        | Version control                                          |
+| GitHub     | Repository hosting and documentation                     |
+
 ---
 
 ## 9. Financial-Market Domain
