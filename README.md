@@ -100,7 +100,7 @@ E0 follows a modular architecture in which individual components perform specifi
 The high-level execution workflow is illustrated below:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A["Position Manager : Manages existing position information"]
     B["  Market Data    : Acquires and processes financial-market data"]
     C["Market Analysis  : Performs preliminary analysis of market conditions and price structure."]
