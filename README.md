@@ -99,6 +99,7 @@ E0 follows a modular architecture in which individual components perform specifi
 
 The high-level execution workflow is illustrated below:
 
+```mermaid
 flowchart TD
     A["Position Manager<br/>Manages existing position information"]
     B["Market Data<br/>Acquires and processes financial-market data"]
@@ -114,6 +115,7 @@ flowchart TD
     D --> E
     E --> F
     F --> G
+```
 
 Each component contributes to a specific stage of the trading process.
 
