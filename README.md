@@ -101,13 +101,13 @@ The high-level execution workflow is illustrated below:
 
 ```mermaid
 flowchart TD
-    A["Position Manager<br/>Manages existing position information"]
-    B["Market Data<br/>Acquires and processes financial-market data"]
-    C["Market Analysis<br/>Analyzes market conditions and price structure"]
-    D["Brain<br/>Evaluates conditions and identifies trading opportunities"]
-    E["Execution<br/>Handles validation, instrument selection and order execution"]
-    F["Trade Management<br/>Manages active trade operations"]
-    G["Closure<br/>Handles trade closure"]
+    A["Position Manager : Manages existing position information"]
+    B["  Market Data    : Acquires and processes financial-market data"]
+    C["Market Analysis  : Performs preliminary analysis of market conditions and price structure."]
+    D["     Brain       : Evaluates market conditions and identifies potential trading opportunities."]
+    E["   Execution     : Handles trade validation, instrument selection, and order execution logic."]
+    F["Trade Management : Manages active trade-related operations."]
+    G["    Closure      : Handles the trade-closing process."]
 
     A --> B
     B --> C
