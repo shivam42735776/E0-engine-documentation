@@ -109,12 +109,7 @@ flowchart TD
     F["Trade Management : Manages active trade-related operations."]
     G["    Closure      : Handles the trade-closing process."]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+    A --> B --> C --> D --> E --> F --> G
 ```
 
 Each component contributes to a specific stage of the trading process.
